@@ -30,6 +30,7 @@ class MyClass01 {
     //인스턴스가 가져하는 속성들
     int age;
     String name;
+    String address;
     //intance meth  ods
     //인스터가 가져하는 기능들
 
