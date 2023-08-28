@@ -29,8 +29,8 @@ class MyClass01 {
     // instance fields
     //인스턴스가 가져하는 속성들
     int age;
-
-    //intance methods
+    String name;
+    //intance meth  ods
     //인스터가 가져하는 기능들
 
 
