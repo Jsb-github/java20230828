@@ -1,0 +1,11 @@
+package ch07extends.book.sec07.exam03;
+
+public class Child extends Parent{
+    //필드선언
+    public  String field2;
+
+    //메소드 선언
+    public void method03(){
+        System.out.println("Child.method03");
+    }
+}
