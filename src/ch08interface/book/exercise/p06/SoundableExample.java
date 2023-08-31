@@ -11,17 +11,3 @@ public class SoundableExample {
     }
 }
 
-class Cat implements Soundable {
-    @Override
-    public String sound() {
-
-        return "야웅";
-    }
-}
-
-class  Dog implements Soundable{
-    public String sound() {
-
-        return "멍멍";
-    }
-}
