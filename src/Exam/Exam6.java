@@ -1,6 +1,6 @@
 package Exam;
 
-public class exam6 {
+public class Exam6 {
     public static void main(String[] args) {
         /*n보다 커질 때까지 더하기
          *정수 배열 numbers와 정수 n이 매개변수로 주어집니다.
