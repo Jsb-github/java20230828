@@ -33,6 +33,9 @@ public class A {
         B b = new B();
         System.out.println(b.field1);
         b.method1();
+
+        System.out.println();
+
         //B 클래스의 정적 필드 및 메소드 사용
         System.out.println(B.field2);
         B.method2();
