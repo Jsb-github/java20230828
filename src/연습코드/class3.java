@@ -1,4 +1,4 @@
-package Exam;
+package 연습코드;
 
 public class class3 {
        //(1) 클래스 영역에 작성하는 변수를 필드라고 함

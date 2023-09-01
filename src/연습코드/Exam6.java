@@ -1,4 +1,4 @@
-package Exam;
+package 연습코드;
 
 public class Exam6 {
     public static void main(String[] args) {

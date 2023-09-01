@@ -1,6 +1,4 @@
-package Exam;
-
-import java.math.BigInteger;
+package 연습코드;
 
 public class Exam1 {
     public static void main(String[] args) {
