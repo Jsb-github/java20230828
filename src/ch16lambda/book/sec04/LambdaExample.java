@@ -17,6 +17,7 @@ public class LambdaExample {
 
         person.action((x,y)->(x+y));
 
+        person.action(LambdaExample::sum);
 
         //리턴문이 하나만 있을 경우(메소드 호출)
 //        person.action((x,y)->{
