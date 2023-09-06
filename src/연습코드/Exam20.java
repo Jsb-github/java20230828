@@ -1,13 +1,19 @@
 package 연습코드;
 
+import java.util.Arrays;
+
 public class Exam20 {
     public static void main(String[] args) {
-        /* 1/ 2 + 3 / 4 = 5 / 4입니다. 따라서 [5, 4]를 return 합니다.*/
-        int numer1 = 1;
-        int denom1 = 2;
-        int numer2 = 3;
-        int denom2 = 4;
+        int[] numbers = {0, 31, 24, 10, 1, 9};
+        int answer = 0;
 
-        int bu =
+        Arrays.sort(numbers);
+
+        int left = numbers[0] * numbers[1];
+        int right = numbers[numbers.length-1]*numbers[numbers.length-2];
+        answer =  Math.max(left,right);
+        System.out.println(answer);
+
     }
+
 }
