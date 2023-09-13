@@ -3,13 +3,14 @@ package Ch17stream.book.exercise.p06;
 import java.util.Arrays;
 import java.util.List;
 import java.util.Optional;
+import java.util.OptionalDouble;
 
 public class Example {
     public static void main(String[] args) {
         List<Member> list = Arrays.asList(
                 new Member("홍길동",30),
                 new Member("신용권",40),
-                new Member("김자바",25)
+                new Member("김자바",26)
         );
 
         System.out.println("회원 출력");
@@ -40,5 +41,16 @@ public class Example {
                 .reduce(Integer .MAX_VALUE, Math::min);
 
         System.out.println("reduce1 = " + reduce2);
+
+
+        System.out.println();
+
+        double average = list.stream()
+                .mapToInt(Member::getAge)
+                .average()
+                .getAsDouble();
+
+        System.out.println("평균 나이 = " + average);
+
     }
 }
