@@ -18,7 +18,7 @@ public class Exam34 {
             }
         }
 
-
+        System.out.println(map);
         boolean b1 = true;
 
         for(Map.Entry<Integer,Integer> entry: map.entrySet()){
